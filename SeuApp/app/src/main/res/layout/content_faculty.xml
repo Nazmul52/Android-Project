@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Faculty"
+    tools:showIn="@layout/activity_faculty">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/sm" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="19dp"
+        android:paddingLeft="5dp"
+        android:text="Mr. Shahriar Manzoor"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/chair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textColor="#000"
+        android:text="Associate Professor and Chairman" />
+</LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--2nd Layout-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/monirul" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="150dp"
+                android:layout_height="19dp"
+                android:text="Mr. Monirul Hasan"
+                android:paddingLeft="5dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/cor"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Senior Lecturer and Coordinator" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/ashiqur" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="150dp"
+                android:layout_height="19dp"
+                android:text="Mr. Md. Ashiqur Rahman"
+                android:paddingLeft="5dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/prof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textColor="#000"
+                android:text="Assistant Professor" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/rubel" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="150dp"
+            android:layout_height="19dp"
+            android:text="Mosharrof Rubel"
+            android:paddingLeft="5dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/lec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:text="Lecturer" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/rb" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="150dp"
+                android:layout_height="19dp"
+                android:text="Rajon Bardhan"
+                android:paddingLeft="5dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/cor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textColor="#000"
+                android:text="Lecturer and Coordinator" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

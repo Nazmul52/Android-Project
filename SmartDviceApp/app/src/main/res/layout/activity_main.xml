@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="297dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:id="@+id/txtView"
+        android:textSize="29dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_margin="40dp"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>

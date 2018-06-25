@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Tution_Fee"
+    tools:showIn="@layout/activity_tution__fee">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_margin="20dp"
+        android:contentDescription="Science"
+        app:srcCompat="@drawable/fee" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:layout_margin="20dp"
+        android:contentDescription="Arts"
+        app:srcCompat="@drawable/arts" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_margin="20dp"
+        android:contentDescription="Arts"
+        app:srcCompat="@drawable/bba"
+        tools:ignore="DuplicateIds" />
+
+
+</LinearLayout>

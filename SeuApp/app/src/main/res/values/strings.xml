@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="southeast_university">Southeast University</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_tution__fee">Tution_Fee</string>
+    <string name="title_activity_faculty">Faculty</string>
+    <string name="title_activity_photo__gallery">Photo_Gallery</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context=".About"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin"
+        android:paddingBottom="40dp"
+        android:textSize="20dp"
+        android:text="Message of the Chairman, Board of Trustees"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:text="With a humble beginning in 2002 and a mere 27 students, Southeast University (SEU) has become one
+          of the most successful universities in the country,
+          having the highest number of student enrolment,
+          permanent campus coupled with state-of-the-art facility
+           and above all, a centre of transcendence.
+
+          In many ways, SEU has been distinct from day one,
+          facilitating the scope of higher education for emerging
+          middle class, while continually thrusting for improvement
+           and focusing on the future with a philanthropic fortitude.
+"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+
+</LinearLayout>
