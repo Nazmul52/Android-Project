@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nazmulhuda.chat_app.User">
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+
+        android:paddingTop="6dp"
+        android:paddingLeft="6dp"
+        android:textColor="#10D643"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/result"
+        android:layout_centerHorizontal="true"
+        android:hint="Write your text..."
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="7dp"
+        android:layout_marginTop="124dp"
+        android:id="@+id/user2" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/user2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_button1"
+        android:text="Send"
+        android:textSize="18sp"
+        android:textColor="#CBCBCB"
+        android:id="@+id/send"
+        android:onClick="sendUser"
+        android:textStyle="bold" />
+
+</RelativeLayout>
